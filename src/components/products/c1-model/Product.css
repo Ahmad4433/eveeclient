@@ -1,0 +1,169 @@
+.c1-content-main{
+    display: grid;
+    gap: 0.4rem;
+    grid-template-columns: 1fr;
+
+}
+
+@media(min-width:756px){
+.c1-content-main{
+    grid-template-columns: 2fr 1fr;
+}
+}
+
+.c1-thumbnil-sec{
+    width: 100%;
+}
+.c1-content{
+    padding: 1rem;
+    width: 100%;
+
+
+}
+
+.c1-name-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c1-like-icon{
+    font-size: 1.6rem;
+}
+
+.c1-name{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.c1-offer-per{
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color:orangered;
+    padding: 0.6rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: white; 
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.27);
+
+}
+
+.c1-model{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.c1-model-sec{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.c1-model-sec span{
+    font-size:1rem;
+}
+.c1-model-sec h4{
+    font-size: 1.6rem;    
+}
+.c1-detail{
+    text-transform: capitalize;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    font-weight: 500;
+}
+
+.c1-bar{
+    height: 1px;
+    width: 100%;
+    background-color: #aaaaaa;
+    margin: 0.6rem 0;
+}
+
+
+@media(min-width:420px){
+    .c1-bar{
+        margin: 2rem 0;
+    }
+}
+
+.c1-price-formated{
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.c1-price-sec{
+    position: relative;
+}
+
+.c1-offer-timer{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.c1-rating-sec{
+    display: flex;
+    gap: 0.4rem;
+}
+.c1-rating-count{
+    color: #888;
+}
+
+.c1-stock-sec{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+margin: 0.8rem 0;
+}
+
+.c1-stock-sec span{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.c1-stock-icon{
+    color: seagreen;
+    font-size: 1.4rem;
+}
+
+.c1-stock-formated-icon{
+color: red;
+font-size: 1.4rem;
+}
+
+.c1-action{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.c1-action-icon{
+
+    font-size: 1.4rem;
+
+}
+
+.c1-rating-sec{
+    position: relative;
+}
+
+.like-sec{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.c1-action-sec{
+display: grid;
+margin-top: 2rem;
+bottom: 1rem;
+gap: 0.6rem;
+grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+}
+
+@media(min-width:420px){
+    .c1-action-sec{
+        margin-top: 6rem;
+    }
+}

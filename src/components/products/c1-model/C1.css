@@ -1,0 +1,22 @@
+.c1-main{
+    background: linear-gradient(45deg,lightBlue,pink);
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+
+@media(min-width:756px){
+    .c1-main{
+        grid-template-columns: 1.6fr 1.4fr;
+    }
+}
+
+.c1-mini-slider-sec{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.c1-product-content-sec{
+    width: 100%;
+}

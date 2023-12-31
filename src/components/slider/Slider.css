@@ -1,0 +1,24 @@
+.slider-main{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+
+}
+.slider-slides{
+    height: 100%;
+    width: 100%;
+}
+.slider-slide{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.slider-slides:active,.slider-slides:focus{
+    border: none;
+    outline: none;
+}
+
+.slider-slides:hover{
+    cursor: pointer;
+}
